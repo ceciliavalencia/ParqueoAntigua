@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9F3C006-1AF7-4AA1-A32D-F981F6DD41E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proyecto_estructuras_1</RootNamespace>
+    <AssemblyName>proyecto_estructuras_1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alamedas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alamedas.Designer.cs">
+      <DependentUpon>alamedas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concepcion.Designer.cs">
+      <DependentUpon>Concepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtro Marca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtro Marca.Designer.cs">
+      <DependentUpon>Filtro Marca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Las Flores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Las Flores.Designer.cs">
+      <DependentUpon>Las Flores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sta Ines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sta Ines.Designer.cs">
+      <DependentUpon>Sta Ines.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alamedas.resx">
+      <DependentUpon>alamedas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concepcion.resx">
+      <DependentUpon>Concepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro Marca.resx">
+      <DependentUpon>Filtro Marca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Las Flores.resx">
+      <DependentUpon>Las Flores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sta Ines.resx">
+      <DependentUpon>Sta Ines.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14248-Mapa-de-Antigua-Guatemala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-gris-abstracto_1077-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\015628f8d65a6b4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\allfons.ru-2743.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concepcion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KLJSAJFKS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANTA INES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alamedas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lasflores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lasflores1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karta-map-materiki-kontinenty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SDLKFJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_nube.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1746885.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruju.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

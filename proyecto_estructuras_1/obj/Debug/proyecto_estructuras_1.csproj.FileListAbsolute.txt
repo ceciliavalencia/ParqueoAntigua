@@ -1,0 +1,15 @@
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\bin\Debug\proyecto_estructuras_1.exe.config
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\bin\Debug\proyecto_estructuras_1.exe
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\bin\Debug\proyecto_estructuras_1.pdb
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.csprojAssemblyReference.cache
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Form1.resources
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Properties.Resources.resources
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.csproj.GenerateResource.cache
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.csproj.CoreCompileInputs.cache
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.exe
+c:\users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.pdb
+C:\Users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.alamedas.resources
+C:\Users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Filtro_Marca.resources
+C:\Users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Las_Flores.resources
+C:\Users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Sta_Ines.resources
+C:\Users\ceciv\source\repos\proyecto_estructuras_1\proyecto_estructuras_1\obj\Debug\proyecto_estructuras_1.Concepcion.resources
